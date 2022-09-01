@@ -53,4 +53,17 @@ File Link: [mentorship_eligibility.csv](https://github.com/Sborresch/Pewlett-Hac
 
 # Summary
 ## How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+According to the retirement_titles.csv file, there will be a total of the following vacancies:
+- Assistant Engineer: 4,584
+- Engineer: 34,559
+- Manager: 6
+- Senior Engineer: 29,415
+- Senior Staff: 28,256
+- Staff: 32,452
+- Technique Leader: 4,504
+- Total: 133,776
+
+Therefore, at least 50% of the vacancies will need to be filled to make an impact on Pewlett Hackard.
+
 ## Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+  Yes, there are enough qualified, retirement-ready employees in the department to mentor the next generation of Pewlett Hacakrd employees. This can be found in the following data link: File Link: [mentorship_eligibility.csv](https://github.com/Sborresch/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv)
