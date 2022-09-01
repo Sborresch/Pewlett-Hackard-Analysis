@@ -18,6 +18,7 @@
   
 ## Flowchart
 ![Screenshot](https://github.com/Sborresch/Pewlett-Hackard-Analysis/blob/main/EmployeeDB.png)
+  
   A first step in building a database is to map out the flow or relationship between all your data files. In this case there are 6 CSV files that we will use to find patterns to answer our two questions. The relationships are identified by the lines connecting each of the tables. Those with a key are indicative of primary keys, meaning they are unique identifiers for that table. Those column names that are bolded are foreign keys, meaning they are primary key in another table.
 
 # Results
@@ -41,7 +42,15 @@ File link: [retirement_titles.csv](https://github.com/Sborresch/Pewlett-Hackard-
   This will allow the company, its hiring committee, HR, and the effected departments to identify what positions they need to begin posting jobs for, interviewing, hiring, and training. This will allow for each entitiy to properly plan for resources.
   
 ## Finding Three - The Employees Eligible for the Mentorship Program
+File Link: [mentorship_eligibility.csv](https://github.com/Sborresch/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv)
+
+  This data CSV file was created using a relational database called PostgreSQL. The purpose of this file was to identify those employees in Pewlett Hackard that are not retiring and are in favorable positions to receive mentorship and ultimately transition into one of the vacancies left by those retiring. It simply is a transition of resources throughout the corporation. Finding number three, related to this CSV file, is that there are 1,550 current employees who qualify for mentorship and vertical move up the corporate latter. It should be realized that of the small 1,550 employees who are eligible for mentorship, this would only satisfy a small subset of those retiring. For this purpose these individuals should be considered for leadership positions.
+  
 ## Finding Four - The Employees Eligible for the Mentorship Program
+File Link: [mentorship_eligibility.csv](https://github.com/Sborresch/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv)
+
+  This data CSV file was created using a relational database called PostgreSQL. The purpose of this file was to identify those employees in Pewlett Hackard that are not retiring and are in favorable positions to receive mentorship and ultimately transition into one of the vacancies left by those retiring. It simply is a transition of resources throughout the corporation. Finding number four, related to this CSV file, is that of these individuals who are considered and chosen for leadership positions their current position would become vacant. It is important to assess the corporations needs and the market status (shortage or surplus) of workers in this field and how they plan to approach filling a vacancy only to create one. This is a cascading effect that will be a long term process for Pewlett Hackard to see through.
+
 # Summary
 ## How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 ## Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
